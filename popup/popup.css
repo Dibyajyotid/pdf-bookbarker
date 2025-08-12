@@ -1,0 +1,91 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+#status {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 60px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+#bookmarks-list {
+  margin-top: 15px;
+}
+
+#bookmarks-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#bookmarks-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  border-left: 3px solid #4285f4;
+}
+
+#bookmarks-list li small {
+  color: #666;
+  display: block;
+  margin: 5px 0;
+}
+
+#bookmarks-list li button {
+  padding: 3px 6px;
+  font-size: 12px;
+  background-color: #666;
+}
+
+#bookmarks-list li button:hover {
+  background-color: #555;
+}

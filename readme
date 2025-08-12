@@ -1,0 +1,33 @@
+# PDF Bookbarker
+
+PDF Bookbarker is a project I am building to add and manage bookmarks in PDF files. The goal is to provide a simple interface for users to save, view, and annotate bookmarks for their PDFs.
+
+## Project Structure
+
+- **popup/**: Contains the frontend popup UI (HTML, CSS, JS) for interacting with bookmarks.
+- **backend/**: Contains the Go backend server that stores and serves bookmark data.
+
+## Current Status
+
+- **Popup UI**: In development. Allows users to enter bookmark titles and notes.
+- **Backend**: REST API in Go for storing and retrieving bookmarks.
+- **Communication Logic**: Work in progress; will connect the popup UI to the backend API.
+
+## How It Works
+
+1. User opens the popup while viewing a PDF.
+2. User can add a bookmark with a title and notes.
+3. Bookmarks are sent to the backend and saved.
+4. Bookmarks can be listed and managed from the popup.
+
+## Suggestions & Next Steps
+
+- Add authentication to protect user bookmarks.
+- Support editing and deleting bookmarks.
+- Sync bookmarks across devices.
+- Add PDF page preview or navigation.
+- Improve error handling and user feedback.
+
+---
+
+Feel free to contribute ideas or

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Bookmarker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PDF Bookmarker</h1>
+    <div id="status"></div>
+    <div id="pdf-info" class="hidden">
+      <input type="text" id="bookmark-title" placeholder="Bookmark title">
+      <textarea id="bookmark-notes" placeholder="Notes"></textarea>
+      <button id="add-bookmark">Add Bookmark</button>
+    </div>
+    <div id="bookmarks-list"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
