@@ -14,13 +14,13 @@
 
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
+            "matches": ["<all_urls>", "file://*/*", "chrome-extension://*/*"],
             "js": ["content.js"],
             "all_frames": true
         }
     ],
 
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup/popup.html"
     }
 }
